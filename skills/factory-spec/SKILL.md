@@ -60,8 +60,8 @@ three duties run for every item, in order:
    unfinished?"; consistency: "does this screen read as the same product
    as the previous node (type, color, spacing rhythm — against
    `design-system.md` where seeded)?"; trust: "would a first-time customer
-   trust this screen with their data or money?". Contract authors may add more, never fewer —
-   depth scaled by the tier's `assure` profile
+   trust this screen with their data or money?". Contract authors may add more, never fewer.
+   Contract depth is scaled by the tier's `assure` profile
    (`factory doctor --json` → tiers: bug `node`, feature
    `affected`, epic `full`). Amending a `status: approved` contract is
    NEVER done directly — that goes through a `council-judgement` bid with
