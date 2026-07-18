@@ -53,8 +53,16 @@ three duties run for every item, in order:
    customer knows at each, what they expect next), deterministic oracles
    for the required scenarios, a Run & fixtures section (exact launch
    commands, fixture setup, credentials through safe fixture mechanisms),
-   and interruption/recovery paths — depth scaled by the tier's `assure`
-   profile (`factory doctor --json` → tiers: bug `node`, feature
+   interruption/recovery paths, and a default **polish battery** of AI
+   judgement questions seeded on every touched node — density: "what on
+   this screen is not needed for what the customer is doing at this
+   node?"; craft: "what would a first-time customer visually notice as
+   unfinished?"; consistency: "does this screen read as the same product
+   as the previous node (type, color, spacing rhythm — against
+   `design-system.md` where seeded)?"; trust: "would a first-time customer
+   trust this screen with their data or money?". Contract authors may add more, never fewer —
+   depth scaled by the tier's `assure` profile
+   (`factory doctor --json` → tiers: bug `node`, feature
    `affected`, epic `full`). Amending a `status: approved` contract is
    NEVER done directly — that goes through a `council-judgement` bid with
    `--surface journeys/contracts/<file>`. When any `mcp__claude-design__*`
